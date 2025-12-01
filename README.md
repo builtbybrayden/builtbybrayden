@@ -1,9 +1,8 @@
-# Hi, I'm YOUR_NAME 👋
+# Hi, I'm Brayden 👋
 
-`Programmer` · `Cybersecurity Enthusiast` · `IT Professional` · `Content Creator`
+`IT Professional` · `Cybersecurity Practitioner` · `Problem Solver` · `Creator`
 
-Short 1–2 sentence intro about who you are, what you do, and what you’re passionate about.  
-For example: “I build tools that make IT operations smoother and help people break into tech & cybersecurity.”
+Passionate IT Professional dedicated to safeguarding client data and preserving the environment. Eager learner with vast understanding of IT technologies, committed to mastering cybersecurity and networking fundamentals and contributing to proactive security measures. Seeking an opportunity to apply knowledge and grow in a dynamic environment focused on protecting digital assets and promoting sustainability.
 
 ---
 
@@ -21,14 +20,12 @@ For example: “I build tools that make IT operations smoother and help people b
   - 🔗 [Repo Name](https://github.com/YOUR_USERNAME/REPO_3)
   - One line about what it does and who it’s for.
 
-> Tip: Highlight projects that reflect what you want to be hired for (e.g., security engineering, IT automation, data, web apps).
-
 ---
 
 ## 🛠️ Technologies & Tools
 
 **Languages:**  
-`Python` · `PowerShell` · `JavaScript` · `C#` · `SQL`  
+`Python` · `PowerShell` · `SQL`  
 
 **Cloud & Platforms:**  
 `Azure` · `Microsoft 365` · `GitHub` · `Windows Server`  
@@ -36,17 +33,15 @@ For example: “I build tools that make IT operations smoother and help people b
 **Security & IT Ops:**  
 `SIEM` · `EDR` · `Firewalls` · `Active Directory` · `Ticketing Systems (Freshservice / ServiceNow)`  
 
-(Adjust this list to match your real stack.)
-
 ---
 
 ## 🎓 Learning & Current Focus
 
-- 📚 Currently studying: _e.g., “Defensive security, Azure security, and incident response.”_  
+- 📚 Currently studying: Masters of Science in Cybersecurity & Information Assurance  
 - 🎯 Goals for this year:
-  - Get _[Certification or Goal]_  
-  - Build _[X]_ open-source projects  
-  - Contribute to community content on _[platforms]_  
+  - Pass the CISSP  
+  - Build 3 open-source security projects  
+  - Contribute to community content on YouTube  
 
 ---
 
@@ -69,9 +64,9 @@ If you create content (YouTube, blog, etc.), list your best stuff here.
 
 You can embed some common GitHub widgets here:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=builtbybrayden&show_icons=true&theme=transparent)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=builtbybrayden&layout=compact&theme=transparent)
 
 (Replace `YOUR_USERNAME` with your actual GitHub username.)
 
@@ -79,7 +74,7 @@ You can embed some common GitHub widgets here:
 
 ## 🤝 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-arnold-5387b3199/)
 [![X (Twitter)](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](YOUR_TWITTER_URL)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_URL)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](YOUR_INSTAGRAM_URL)
