@@ -60,18 +60,6 @@ If you create content (YouTube, blog, etc.), list your best stuff here.
 
 ---
 
-## 📈 GitHub & Activity
-
-You can embed some common GitHub widgets here:
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=builtbybrayden&show_icons=true&theme=transparent)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=builtbybrayden&layout=compact&theme=transparent)
-
-(Replace `YOUR_USERNAME` with your actual GitHub username.)
-
----
-
 ## 🤝 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-arnold-5387b3199/)
@@ -81,7 +69,7 @@ You can embed some common GitHub widgets here:
 
 You can also just list plain links if you don’t like badges:
 
-- 💼 LinkedIn: https://linkedin.com/in/YOUR_HANDLE  
+- 💼 LinkedIn: https://www.linkedin.com/in/brayden-arnold-5387b3199/
 - 🐦 X (Twitter): https://x.com/YOUR_HANDLE  
 - 📺 YouTube: https://youtube.com/@YOUR_CHANNEL  
 - 📷 Instagram: https://instagram.com/YOUR_HANDLE  
