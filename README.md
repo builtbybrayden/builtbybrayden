@@ -8,9 +8,9 @@ Passionate IT Professional dedicated to safeguarding client data and preserving 
 
 ## 💻 Software & Security Projects
 
-- **Project 1 – Short Description**
-  - 🔗 [Repo Name](https://github.com/YOUR_USERNAME/REPO_1)
-  - One line about what it does, tech stack, and why it’s cool.
+- **Project N.A.R.C – Nmap Automated Report Creator**
+  - 🔗 [Repo Name]([https://github.com/YOUR_USERNAME/REPO_1](https://github.com/builtbybrayden/NARC/tree/main))
+  - This is a python user friendly automation of Nmap to create simple .txt reports of a scanned device or network, open ports/services, and potential vulnerabilities for further investigation. I used this project to test my understanding of Nmap, network and vulnerability scanning, as well as python coding.
 
 - **Project 2 – Short Description**
   - 🔗 [Repo Name](https://github.com/YOUR_USERNAME/REPO_2)
