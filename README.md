@@ -64,14 +64,14 @@ If you create content (YouTube, blog, etc.), list your best stuff here.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-arnold-5387b3199/)
 [![X (Twitter)](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](YOUR_TWITTER_URL)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_YOUTUBE_URL)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@builtbybrayden1)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](YOUR_INSTAGRAM_URL)
 
 You can also just list plain links if you don’t like badges:
 
 - 💼 LinkedIn: https://www.linkedin.com/in/brayden-arnold-5387b3199/
 - 🐦 X (Twitter): https://x.com/YOUR_HANDLE  
-- 📺 YouTube: https://youtube.com/@YOUR_CHANNEL  
+- 📺 YouTube: https://www.youtube.com/@builtbybrayden1  
 - 📷 Instagram: https://instagram.com/YOUR_HANDLE  
 
 ---
