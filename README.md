@@ -13,7 +13,7 @@ Passionate IT Professional dedicated to safeguarding client data and preserving 
   - This is a python user friendly automation of Nmap to create simple .txt reports of a scanned device or network, open ports/services, and potential vulnerabilities for further investigation. I used this project to test my understanding of Nmap, network and vulnerability scanning, as well as python coding.
 
 - **Project SENTRY-PS – A Powershell Security Enumeration Tool**
-  - 🔗 [Repo Name](https://github.com/YOUR_USERNAME/REPO_2)
+  - 🔗 [SENTRY-PS](https://github.com/builtbybrayden/SENTRY-PS)
   - This is a PowerShell-based security enumeration and risk triage tool that exports reports to multiple formats including .JSON, .CSV, and .HTML. I used this project to work on my Powershell skills and map finding results to frameworks like NIST, MITRE, and CIS.
 
 ---
