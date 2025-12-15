@@ -43,6 +43,8 @@ Passionate IT Professional dedicated to safeguarding client data and preserving 
 
 ## 🎥 Content & Resources
 
+**COMING SOON**
+/*
 If you create content (YouTube, blog, etc.), list your best stuff here.
 
 - 🎬 **Video / Article Title**
@@ -53,7 +55,7 @@ If you create content (YouTube, blog, etc.), list your best stuff here.
   - 🔗 [Link here](https://example.com)
 
 (If you don’t have content yet, you can rename this section to “📚 Favorite Resources” and link to resources you recommend instead.)
-
+*/
 ---
 
 ## 🤝 Connect with Me
@@ -75,4 +77,4 @@ You can also just list plain links if you don’t like badges:
 ### ✉️ Contact
 
 For collaboration, questions, or just to say hi:  
-**Email:** your.email@example.com
+**Email:** brayden.arnold@gmail.com
