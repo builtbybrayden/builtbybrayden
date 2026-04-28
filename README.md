@@ -77,4 +77,4 @@ You can also just list plain links if you don’t like badges:
 ### ✉️ Contact
 
 For collaboration, questions, or just to say hi:  
-**Email:** brayden.arnold@gmail.com
+**Email:** brayden@builtbybrayden.com
