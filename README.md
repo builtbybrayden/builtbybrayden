@@ -76,7 +76,7 @@ Both found and reproduced in an isolated lab, reported through coordinated discl
 ## 🤝 Connect with Me
 
 - 📝 Blog: https://builtbybrayden.github.io
-- 💼 LinkedIn: https://www.linkedin.com/in/brayden-arnold-5387b3199/
+- 💼 LinkedIn: https://www.linkedin.com/in/builtbybrayden
 - 📺 YouTube: https://www.youtube.com/@builtbybrayden1
 
 ---
