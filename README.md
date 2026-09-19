@@ -1,80 +1,87 @@
 # Hi, I'm Brayden 👋
 
-`IT Professional` · `Cybersecurity Practitioner` · `Problem Solver` · `Creator`
+`Application Security Analyst` · `Aspiring Application Security Engineer` · `Independent Security Researcher`
 
-Passionate IT Professional dedicated to safeguarding client data and preserving the environment. Eager learner with vast understanding of IT technologies, committed to mastering cybersecurity and networking fundamentals and contributing to proactive security measures. Seeking an opportunity to apply knowledge and grow in a dynamic environment focused on protecting digital assets and promoting sustainability.
-
----
-
-## 💻 Software & Security Projects
-
-- **Project N.A.R.C – Nmap Automated Report Creator**
-  - 🔗 [NARC](https://github.com/builtbybrayden/NARC/tree/main)
-  - This is a python user friendly automation of Nmap to create simple .txt reports of a scanned device or network, open ports/services, and potential vulnerabilities for further investigation. I used this project to test my understanding of Nmap, network and vulnerability scanning, as well as python coding.
-
-- **Project SENTRY-PS – A Powershell Security Enumeration Tool**
-  - 🔗 [SENTRY-PS](https://github.com/builtbybrayden/SENTRY-PS)
-  - This is a PowerShell-based security enumeration and risk triage tool that exports reports to multiple formats including .JSON, .CSV, and .HTML. I used this project to work on my Powershell skills and map finding results to frameworks like NIST, MITRE, and CIS.
+I work in application security day-to-day and spend my own time finding and reporting real vulnerabilities in open source software, building DevSecOps tooling, and leveling up toward an AppSec Engineer role. Two of my findings have been assigned CVEs. I write up the interesting ones on my [blog](https://builtbybrayden.github.io).
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🔍 Independent Security Research
 
-**Languages:**  
-`Python` · `PowerShell` · `SQL`  
+- **CVE-2026-86765** — Snipe-IT: checkout authorization bypass via the asset update endpoint. A role with only asset-edit rights (and checkout explicitly denied) could still check out equipment by pushing assignment fields through a different endpoint than the one that was actually gated. CVSS 6.5.
+  - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-asset-update-checkout-bypass/) · [Advisory (GHSA-6g2g-83pc-6365)](https://github.com/grokability/snipe-it/security/advisories/GHSA-6g2g-83pc-6365)
 
-**Cloud & Platforms:**  
-`Azure` · `Microsoft 365` · `GitHub` · `Windows Server`  
+- **CVE-2026-55516** — Snipe-IT: cross-tenant data exposure in multi-company mode. A missing ownership check on maintenance records let a user in one company attach or re-point records onto another company's equipment. CVSS 7.7 (High).
+  - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-maintenance-cross-tenant/) · [Advisory (GHSA-575r-357h-fhch)](https://github.com/grokability/snipe-it/security/advisories/GHSA-575r-357h-fhch)
 
-**Security & IT Ops:**  
-`SIEM` · `EDR` · `Firewalls` · `Active Directory` · `Ticketing Systems (Freshservice / ServiceNow)`  
-
----
-
-## 🎓 Learning & Current Focus
-
-- 📚 Currently studying: Masters of Science in Cybersecurity & Information Assurance  
-- 🎯 Goals for this year:
-  - Pass the CISSP  
-  - Build 3 open-source security projects  
-  - Contribute to community content on YouTube  
+Both found and reproduced in an isolated lab, reported through coordinated disclosure, and fixed by the maintainer.
 
 ---
 
-## 🎥 Content & Resources
+## 🛠️ AppSec Engineering
 
-**COMING SOON**
-<!--
-If you create content (YouTube, blog, etc.), list your best stuff here.
+- **Self-hosted DevSecOps pipeline** — GitHub Actions (self-hosted runner) triggers SAST (Semgrep) and SCA (OWASP Dependency-Check) scans on every push/PR. An event-driven ingestion service watches for new scan output and automatically imports findings into DefectDojo, tagging them by product/scan type so they land in the right vulnerability-management workflow without manual upload. Currently a personal lab project, being hardened toward something I'd run against real repos.
 
-- 🎬 **Video / Article Title**
-  - 🔗 [Link here](https://example.com)
-  - One line on what viewers/readers will learn.
+- **CVE-hunting labs** — Practice environments for fingerprinting real-world software and matching it against known CVEs with Nuclei (detect-then-match workflow), plus hands-on work against intentionally vulnerable applications to sharpen web exploitation skills.
 
-- 🎬 **Video / Article Title**
-  - 🔗 [Link here](https://example.com)
+---
 
-(If you don’t have content yet, you can rename this section to “📚 Favorite Resources” and link to resources you recommend instead.)
--->
+## 🎓 Certifications
+
+**Application & Web Security**
+- Burp Suite Certified Practitioner (BSCP) — PortSwigger, Apr 2026
+- Certified Web Exploitation Specialist (CWES) — Hack The Box, Feb 2026
+- Practical Web Pentest Associate — TCM Security, Apr 2024
+
+**Offensive Security & Analysis**
+- CompTIA PenTest+ — Dec 2025
+- CompTIA CySA+ — Nov 2025
+- CompTIA Advanced Security Practitioner (CASP+) — Dec 2025
+
+**Security Management & Governance**
+- Certified Information Security Manager (CISM) — ISACA, Dec 2025
+- Certified in Cybersecurity (CC) — ISC2, Nov 2025
+
+**IT Service Management**
+- ITIL 4 Leader: Digital & IT Strategy — Nov 2025
+- ITIL Foundation — Jan 2024
+
+---
+
+## 💻 Technologies & Tools
+
+**AppSec / Security:**
+`Burp Suite` · `Semgrep` · `OWASP Dependency-Check` · `Nuclei` · `DefectDojo` · `SIEM` · `EDR`
+
+**Languages:**
+`Python` · `PowerShell` · `SQL` · `Java`
+
+**DevOps & Cloud:**
+`Docker` · `GitHub Actions` · `Azure` · `Microsoft 365` · `Windows Server`
+
+**IT & Identity:**
+`Active Directory` · `Firewalls` · `Ticketing Systems (Freshservice / ServiceNow)`
+
+---
+
+## 🎯 Current Focus
+
+- 📚 Studying for CPTS, OSCP, and CISSP
+- 🎯 Targeting Application Security Engineer roles
+- 🔍 Continuing independent vulnerability research and coordinated disclosure
+- 🛠️ Hardening the DevSecOps pipeline project for real-world use
+
 ---
 
 ## 🤝 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayden-arnold-5387b3199/)
-[![X (Twitter)](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](YOUR_TWITTER_URL)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@builtbybrayden1)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](YOUR_INSTAGRAM_URL)
-
-You can also just list plain links if you don’t like badges:
-
+- 📝 Blog: https://builtbybrayden.github.io
 - 💼 LinkedIn: https://www.linkedin.com/in/brayden-arnold-5387b3199/
-- 🐦 X (Twitter): https://x.com/YOUR_HANDLE  
-- 📺 YouTube: https://www.youtube.com/@builtbybrayden1  
-- 📷 Instagram: https://instagram.com/YOUR_HANDLE  
+- 📺 YouTube: https://www.youtube.com/@builtbybrayden1
 
 ---
 
 ### ✉️ Contact
 
-For collaboration, questions, or just to say hi:  
+For collaboration, questions, or just to say hi:
 **Email:** brayden@builtbybrayden.com
