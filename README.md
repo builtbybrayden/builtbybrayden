@@ -2,17 +2,23 @@
 
 `Application Security Analyst` · `Aspiring Application Security Engineer` · `Independent Security Researcher`
 
-I work in application security day-to-day and spend my own time finding and reporting real vulnerabilities in open source software, building DevSecOps tooling, and leveling up toward an AppSec Engineer role. Six of my findings have been assigned CVEs, with two more patched and awaiting assignment. I write up the interesting ones on my [blog](https://builtbybrayden.github.io).
+I work in application security day-to-day and spend my own time finding and reporting real vulnerabilities in open source software, building DevSecOps tooling, and leveling up toward an AppSec Engineer role. Two of my findings have been assigned CVEs. I write up the interesting ones on my [blog](https://builtbybrayden.github.io).
 
 ---
 
 ## 🔍 Independent Security Research
 
-- **Four authentication & credential-handling flaws in Snipe-IT** (CVE-2026-116198 – CVE-2026-116201) — a cluster found in a single audit of Snipe-IT's login and secret-storage paths: an account-active check missing on one login path, a replayable SSO assertion, a silently-downgraded "encrypted" LDAP bind, and plaintext written into fields flagged as encrypted. Moderate / Low severity.
-  - 🔑 CVE-2026-116199 (Google SSO deactivated-user bypass) — 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-google-sso-deactivated-user/) · [Advisory (GHSA-xf36-wx48-5rqp)](https://github.com/grokability/snipe-it/security/advisories/GHSA-xf36-wx48-5rqp)
-  - 🔁 CVE-2026-116201 (SAML assertion replay) — 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-saml-assertion-replay/) · [Advisory (GHSA-w49g-f2jc-qxhg)](https://github.com/grokability/snipe-it/security/advisories/GHSA-w49g-f2jc-qxhg)
-  - 📡 CVE-2026-116200 (LDAP StartTLS downgrade) — 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-ldap-starttls-downgrade/) · [Advisory (GHSA-wx48-r3qh-jvh5)](https://github.com/grokability/snipe-it/security/advisories/GHSA-wx48-r3qh-jvh5)
-  - 🗄️ CVE-2026-116198 (plaintext in encrypted custom fields) — 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-encrypted-field-plaintext-write/) · [Advisory (GHSA-jh4g-98fm-jcqc)](https://github.com/grokability/snipe-it/security/advisories/GHSA-jh4g-98fm-jcqc)
+- **CVE-2026-116201** — Snipe-IT: SAML single sign-on assertion replay. A non-atomic nonce check with no database uniqueness constraint let one captured SAML assertion be replayed into multiple concurrent sessions, so revoking one session left the others alive. Moderate.
+  - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-saml-assertion-replay/) · [Advisory (GHSA-w49g-f2jc-qxhg)](https://github.com/grokability/snipe-it/security/advisories/GHSA-w49g-f2jc-qxhg)
+
+- **CVE-2026-116200** — Snipe-IT: LDAP StartTLS downgrade to cleartext. The login code never checked whether the StartTLS upgrade succeeded, so a failed or attacker-stripped handshake sent the directory service-account and every user password across the wire in cleartext while login still looked normal. Moderate.
+  - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-ldap-starttls-downgrade/) · [Advisory (GHSA-wx48-r3qh-jvh5)](https://github.com/grokability/snipe-it/security/advisories/GHSA-wx48-r3qh-jvh5)
+
+- **CVE-2026-116199** — Snipe-IT: Google SSO accepted deactivated users. The active-account check was enforced on every login path except Google sign-in, so a deactivated user whose Google identity was still live could log back in at their original permission level. Moderate.
+  - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-google-sso-deactivated-user/) · [Advisory (GHSA-xf36-wx48-5rqp)](https://github.com/grokability/snipe-it/security/advisories/GHSA-xf36-wx48-5rqp)
+
+- **CVE-2026-116198** — Snipe-IT: plaintext written to encrypted custom fields. One asset-creation API path skipped encryption but still wrote the value when the caller lacked the encrypted-fields permission, storing plaintext in a column flagged as encrypted and breaking encryption at rest. Low.
+  - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-encrypted-field-plaintext-write/) · [Advisory (GHSA-jh4g-98fm-jcqc)](https://github.com/grokability/snipe-it/security/advisories/GHSA-jh4g-98fm-jcqc)
 
 - **CVE-2026-86765** — Snipe-IT: checkout authorization bypass via the asset update endpoint. A role with only asset-edit rights (and checkout explicitly denied) could still check out equipment by pushing assignment fields through a different endpoint than the one that was actually gated. CVSS 6.5.
   - 📝 [Write-up](https://builtbybrayden.github.io/blog/snipeit-asset-update-checkout-bypass/) · [Advisory (GHSA-6g2g-83pc-6365)](https://github.com/grokability/snipe-it/security/advisories/GHSA-6g2g-83pc-6365)
