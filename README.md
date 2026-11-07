@@ -2,7 +2,7 @@
 
 `Application Security Analyst` · `Aspiring Application Security Engineer` · `Independent Security Researcher`
 
-I work in application security day-to-day and spend my own time finding and reporting real vulnerabilities in open source software, building DevSecOps tooling, and leveling up toward an AppSec Engineer role. Two of my findings have been assigned CVEs. I write up the interesting ones on my [blog](https://builtbybrayden.github.io).
+I work in application security day-to-day and spend my own time finding and reporting real vulnerabilities in open source software, building DevSecOps tooling, and leveling up toward an AppSec Engineer role. Six of my findings have been assigned CVEs. I write up the technical details on my [blog](https://builtbybrayden.github.io).
 
 ---
 
